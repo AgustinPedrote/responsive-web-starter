@@ -1,6 +1,6 @@
 # Formulario de Contacto
 
-Este proyecto consiste en un formulario de contacto interactivo y elegante desarrollado utilizando HTML y CSS. El formulario permite a los usuarios enviar sus consultas, comentarios o mensajes de negocios de manera fácil y rápida.
+Este proyecto consiste en un formulario de contacto interactivo y elegante desarrollado utilizando HTML, CSS y JavaScript. El formulario permite a los usuarios enviar sus consultas, comentarios o mensajes de negocios de manera fácil y rápida.
 
 ## Características
 
