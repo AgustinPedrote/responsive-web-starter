@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <main>
+    <!--TODO: Sección superior con el logotipo y el titulo-->
+    <div class="top-section">
+      <img src="images/devchallenges-logo.svg" alt="A beautiful landscape" />
+      <h3 class="title">Contact Us</h3>
+      <p class="description">We'd love to hear from you!</p>
+    </div>
+
+    <!--TODO: Formulario de contacto-->
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Name" />
+      <input type="email" name="email" placeholder="Email" />
+      <input type="tel" name="phone" placeholder="Phone" />
+      <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+      <select name="reason">
+        <option value="feedback">Feedback</option>
+        <option value="question">Question</option>
+        <option value="business">Business</option>
+        <option value="other">Other</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 My Form. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
