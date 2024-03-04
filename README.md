@@ -8,3 +8,8 @@ Este proyecto consiste en un formulario de contacto interactivo y elegante desar
 - Animaciones suaves y elegantes para mejorar la experiencia del usuario.
 - Campos de formulario validados para garantizar la integridad de los datos.
 - Adaptable a dispositivos móviles y de escritorio.
+
+## Imagen
+<p align="center">
+<img src="/images/form.png" width="600">
+</p>
