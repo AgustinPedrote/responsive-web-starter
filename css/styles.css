@@ -23,10 +23,12 @@ a {
 
 /* Estilos para el body */
 body {
+  background-image: url(../images/bg-image.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   max-width: 1280px;
   margin: 0 auto;
-  background: #f4f7fc;
   color: #3f4e5d;
   font-family: "Be Vietnam Pro", sans-serif;
   line-height: 1.6;
@@ -42,6 +44,21 @@ main {
   text-align: center;
 }
 
+.box {
+  max-width: 1000px;
+  background-color: rgba(248, 250, 252, 0.2);
+  border-radius: 20px;
+  padding: 30px 40px;
+  align-self: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
 .top-section {
   margin-bottom: 2rem;
 }
@@ -49,22 +66,43 @@ main {
 .title {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  color: #1a202c;
+  color: #ffffff;
 }
 
 .description {
   font-size: 1.125rem;
   font-weight: 300;
-  color: #64748b;
+  color: #ffffff;
 }
 
-.contact-form {
-  max-width: 600px;
-  width: 100%;
-  padding: 2rem;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"] {
+  margin-bottom: 20px;
+}
+
+#reason {
+  margin-top: 15px;
+}
+
+.form-label {
+  font-size: 14px;
+  color: white;
+  text-align: left;
+}
+
+#name::placeholder,
+#email::placeholder,
+#phone::placeholder,
+#message::placeholder {
+  color: #cdd5e0;
+  font-weight: 600;
+}
+
+select.form-select {
+  font-size: 13px;
+  font-weight: 700;
+  color: #111729;
 }
 
 .contact-form input,
@@ -108,6 +146,7 @@ footer {
   padding: 20px;
   text-align: center;
   margin-top: 20px;
+  color: #ffffff;
 }
 
 /* Mensaje de confirmación */
